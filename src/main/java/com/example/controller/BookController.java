@@ -35,6 +35,7 @@ public class BookController {
         int i = bookService.addBook(book);
         if(i >= 1){
             return "新增book成功,bookId为："+book.getId();
+            //23213
         }else {
             return "新增book失败";
         }
